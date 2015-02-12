@@ -18,3 +18,6 @@ set encoding=utf-8
 
 " Always display the statusline
 set laststatus=2
+
+" Adjust colors 
+set background=dark
