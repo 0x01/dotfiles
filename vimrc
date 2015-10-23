@@ -21,3 +21,18 @@ set laststatus=2
 
 " Adjust colors 
 set background=dark
+
+" Tabs and spaces
+
+" Size of a hard tabstop
+set tabstop=4
+
+" Size of an indent
+set shiftwidth=4
+
+" A combination of spaces and tabs are used to simulate tab stops a width 
+" other that the (hard)tabstop
+set softtabstop=4
+
+" Do not expand tabs
+set noexpandtab
