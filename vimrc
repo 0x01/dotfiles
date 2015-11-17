@@ -22,6 +22,9 @@ set laststatus=2
 " Adjust colors 
 set background=dark
 
+" Treat all numerals as decimal
+set nrformats=
+
 " Tabs and spaces
 
 " Size of a hard tabstop
