@@ -21,3 +21,8 @@ do
   fi
 done
 echo "Finished creating symlinks." 
+
+# vim colors
+echo "Creating symlink for vim color files"
+home=$(readlink -f ~)
+ln -s $home/dotfiles/vim/colors/* $home/.vim/colors/
