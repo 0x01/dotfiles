@@ -4,6 +4,9 @@ set nocompatible
 " Enable syntax highlighting
 syntax enable
 
+" Set colorscheme
+colorscheme monokai
+
 " Use relative line numbers
 set relativenumber
 
