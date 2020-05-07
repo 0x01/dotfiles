@@ -7,8 +7,9 @@ syntax enable
 " Set colorscheme
 colorscheme monokai
 
-" Use relative line numbers
+" Use hybrid line numbers
 set relativenumber
+set number
 
 " Always show postition
 set ruler
