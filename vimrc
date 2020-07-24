@@ -43,3 +43,7 @@ set softtabstop=4
 
 " Do not expand tabs
 set noexpandtab
+
+" Transparent background
+highlight Normal ctermbg=NONE
+highlight nonText ctermbg=NONE
