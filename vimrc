@@ -1,3 +1,7 @@
+" Fix WSL2 vim colors
+set term=screen-256color
+set t_ut=
+
 " Do not use old style vim mode
 set nocompatible
 
