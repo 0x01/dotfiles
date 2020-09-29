@@ -8,6 +8,12 @@ set nocompatible
 " Enable syntax highlighting
 syntax enable
 
+" Enable search highlighting
+set hlsearch
+
+" Shortcut to mute highlighting
+nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
+
 " Set colorscheme
 colorscheme monokai
 
