@@ -58,6 +58,9 @@ set shiftwidth=4
 " other that the (hard)tabstop
 set softtabstop=4
 
+" Making a copy and overwriting the original file
+set backupcopy=yes
+
 " Do not expand tabs
 set noexpandtab
 
