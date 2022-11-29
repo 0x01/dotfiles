@@ -14,6 +14,12 @@ set hlsearch
 " Shortcut to mute highlighting
 nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 
+" Shortcuts to insert timestamps
+nnoremap <F5> "=strftime("%Y-%m-%d")<CR>PA
+inoremap <F5> <C-R>=strftime("%Y-%m-%d")<CR>
+nnoremap <F4> "=strftime("%H%M")<CR>PA
+inoremap <F4> <C-R>=strftime("%H%M")<CR>
+
 " Set colorscheme
 colorscheme monokai
 
@@ -67,3 +73,6 @@ set noexpandtab
 " Transparent background
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
+
+" Support for custom journal syntax highlighting
+autocmd BufNewFile,BufRead *.journal set syntax=journal
