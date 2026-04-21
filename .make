@@ -21,9 +21,9 @@ echo "Finished creating symlinks."
 # vim colors
 echo "Creating symlinks for vim color files"
 mkdir -p ~/.vim/colors
-ln -s ~/dotfiles/vim/colors/* ~/.vim/colors/
+ln -sf ~/dotfiles/vim/colors/* ~/.vim/colors/
 
 # vim syntax
 echo "Creating symlinks for vim syntax files"
 mkdir -p ~/.vim/syntax
-ln -s ~/dotfiles/vim/syntax/* ~/.vim/syntax/
+ln -sf ~/dotfiles/vim/syntax/* ~/.vim/syntax/
