@@ -58,7 +58,7 @@ set nrformats=
 set tabstop=4
 
 " Size of an indent
-set shiftwidth=4
+set shiftwidth=2
 
 " A combination of spaces and tabs are used to simulate tab stops a width 
 " other that the (hard)tabstop
