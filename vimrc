@@ -62,7 +62,7 @@ set shiftwidth=2
 
 " A combination of spaces and tabs are used to simulate tab stops a width 
 " other that the (hard)tabstop
-set softtabstop=4
+set softtabstop=2
 
 " Making a copy and overwriting the original file
 set backupcopy=yes
