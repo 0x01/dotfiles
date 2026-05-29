@@ -67,8 +67,8 @@ set softtabstop=4
 " Making a copy and overwriting the original file
 set backupcopy=yes
 
-" Do not expand tabs
-set noexpandtab
+" Expand tabs
+set expandtab
 
 " Transparent background
 highlight Normal ctermbg=NONE
