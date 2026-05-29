@@ -11,6 +11,18 @@ syntax enable
 " Enable search highlighting
 set hlsearch
 
+" Show matches while typing
+set incsearch
+
+" Case-insensitive search
+set ignorecase
+
+" Case-insensitive unless a capital letter is used
+set smartcase
+
+" Add filetype support — critical for YAML/Python/etc. indentation
+filetype plugin indent on
+
 " Shortcut to mute highlighting
 nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 
